@@ -1,4 +1,4 @@
-# Building a RESTful API with Node, Flow, and Jest"
+# Building a RESTful API with Node, Flow, and Jest
 
 ## Want to learn how to build this project?
 
