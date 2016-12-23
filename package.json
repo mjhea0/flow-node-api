@@ -1,0 +1,32 @@
+{
+  "name": "flow-node-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "DEBUG=\"flow-api:*\" node build/index.js",
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {".*": "<rootDir>/node_modules/babel-jest"}
+  },
+  "dependencies": {
+    "babel-plugin-transform-flow-strip-types": "6.21.0",
+    "babel-polyfill": "6.20.0",
+    "babel-preset-latest": "6.16.0",
+    "body-parser": "1.15.2",
+    "debug": "^2.4.5",
+    "express": "4.14.0",
+    "gulp": "3.9.1",
+    "gulp-babel": "6.1.2",
+    "gulp-sourcemaps": "1.9.1",
+    "morgan": "1.7.0"
+  },
+  "devDependencies": {
+    "flow-typed": "^2.0.0",
+    "gulp-flowtype": "1.0.0",
+    "jest": "18.0.0",
+    "supertest": "2.0.1",
+    "supertest-as-promised": "4.0.2"
+  }
+}
